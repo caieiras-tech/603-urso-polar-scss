@@ -19,5 +19,18 @@ section{
 
 aside{
     grid-area: aside;
-    background-color: limegreen;
+    background-color: $azul-ursinho;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    img{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+    }
+    h1{
+        color: $branco-ursado;
+        font-size: 20pt;
+    }
 }

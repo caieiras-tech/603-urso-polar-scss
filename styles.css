@@ -32,7 +32,18 @@ section {
 
 aside {
   grid-area: aside;
-  background-color: limegreen; }
+  background-color: #002333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  aside img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%; }
+  aside h1 {
+    color: #f2fbf6;
+    font-size: 20pt; }
 
 nav {
   grid-area: navbar;
