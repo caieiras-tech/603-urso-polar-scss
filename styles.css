@@ -1,8 +1,8 @@
 body {
   margin: 0;
   display: grid;
-  grid-template-areas: 'navbar navbar navbar navbar' 'header header header header' 'section section aside aside' 'footer footer footer footer';
-  grid-template-rows: 50px 500px 300px 150px;
+  grid-template-areas: 'navbar navbar navbar navbar' 'header header header header' 'section section aside aside' 'div div div div' 'footer footer footer footer';
+  grid-template-rows: 50px 500px 300px 400px 150px;
   grid-template-columns: 25% 25% 25% 25%; }
 
 header {
@@ -12,7 +12,18 @@ header {
 
 footer {
   grid-area: footer;
-  background-color: magenta; }
+  background-color: limegreen;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  footer div {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    footer div img {
+      width: 35px;
+      height: 35px; }
 
 section {
   grid-area: section;
@@ -58,5 +69,15 @@ nav {
     font-weight: 700; }
     nav a:hover {
       text-decoration: underline; }
+
+#area-gif {
+  grid-area: div;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  #area-gif img {
+    border-radius: 20px; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,11 @@
+#area-gif{
+    grid-area: div;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    img{
+        border-radius: 20px;
+    }
+}

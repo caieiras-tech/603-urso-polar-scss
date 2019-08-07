@@ -4,7 +4,8 @@ body{
     grid-template-areas: 'navbar navbar navbar navbar'
                          'header header header header'
                          'section section aside aside'
+                         'div div div div'
                          'footer footer footer footer';
-    grid-template-rows: 50px 500px 300px 150px;
+    grid-template-rows: 50px 500px 300px 400px 150px;
     grid-template-columns: 25% 25% 25% 25%;
 }
