@@ -16,7 +16,19 @@ footer {
 
 section {
   grid-area: section;
-  background-color: purple; }
+  background-color: #f2fbf6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 30px;
+  flex-direction: column; }
+  section h1 {
+    font-size: 20pt;
+    color: #002333; }
+  section p {
+    color: #002333;
+    font-size: 14pt; }
 
 aside {
   grid-area: aside;

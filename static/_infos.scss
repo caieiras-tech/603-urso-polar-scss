@@ -1,6 +1,20 @@
 section{
     grid-area: section;
-    background-color: purple;
+    background-color: $branco-ursado;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 30px;
+    flex-direction: column;
+    h1{
+        font-size: 20pt;
+        color: $azul-ursinho;
+    }
+    p{
+        color: $azul-ursinho;
+        font-size: 14pt;
+    }
 }
 
 aside{
